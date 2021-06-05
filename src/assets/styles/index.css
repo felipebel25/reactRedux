@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+}
+#margen {
+  margin: 100px;
+  margin-top: 50px;
+}
+
+.tabla {
+  width: 100%;
+  text-align: left;
+}
+
+.tabla td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#menu {
+  background-color: #253a46;
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu a {
+  color: white;
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+.publicaciones--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.publicaciones--container__posts {
+  border-bottom: 1px solid #253a46;
+  border-top: 1px solid #253a46;
+  margin-bottom: 2rem;
+}
