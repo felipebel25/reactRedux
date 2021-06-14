@@ -53,3 +53,6 @@ body {
 .publicaciones--container h1 {
   text-align: center;
 }
+.m_left {
+  margin-left: 20px;
+}

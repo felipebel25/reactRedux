@@ -6,7 +6,7 @@ const Comentarios = (props) => {
     
     const ponerComentarios = () => (
      props.comentarios.map((comentario)=>(
-         <li>
+         <li key={comentario.id}>
             {(props.com_error && <Error error={props.com_error}></Error>)}
             { (props.com_cargando && !props.comentarios.length) && <Spinner /> }
         <b>
